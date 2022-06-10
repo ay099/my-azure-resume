@@ -7,3 +7,5 @@ My cloud resume built and maintained using azure services. Built based on the Cl
 
  - The backend contains an api directory which will house my api calls to my Cosmos DB account on my Azure Subscription, it also contains a test directory.
 
+- The app.js file houses the website visitors counter code
+
