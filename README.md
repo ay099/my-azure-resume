@@ -9,3 +9,5 @@ My cloud resume built and maintained using azure services. Built based on the Cl
 
 - The app.js file houses the website visitors counter code
 
+- The api directory contains a Microsoft function app with C# templates 
+
