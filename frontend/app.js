@@ -4,13 +4,13 @@ window.addEventListener(('DOMContentLoaded'), (e) =>{
 });
 
 // holder for the api data
-const apiData = ''
+const api = 'http://localhost:7071/api/GetResumeCounter'
 
 // function to update the website visit counts on the homepage
 const updateVisitorCount = () => {
     let count = 10;
 
-    fetch(apiData)
+    fetch(api)
     .then(res => res.json())
     .then(data => {
         console.log('succesful connect')

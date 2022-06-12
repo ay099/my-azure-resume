@@ -1,9 +1,0 @@
-{
-  "profiles": {
-    "my_azure_resume": {
-      "commandName": "Project",
-      "commandLineArgs": "--port 7121",
-      "launchBrowser": false
-    }
-  }
-}
