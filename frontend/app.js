@@ -4,7 +4,7 @@ window.addEventListener(('DOMContentLoaded'), (e) =>{
 });
 
 // holder for the api data
-const api = ''
+const api = 'http://localhost:7071/api/GetResumeCounter'
 
 // function to update the website visit counts on the homepage
 const updateVisitorCount = () => {
