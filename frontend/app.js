@@ -3,14 +3,16 @@ window.addEventListener(('DOMContentLoaded'), (e) =>{
     updateVisitorCount();
 });
 
+const funcApiUrl = "https://getayazureresumecounter.azurewebsites.net/api/GetResumeCounter?code=X9bBEMZHwtQf2xv3q44GHEeEmQLb0AYqfNwXX6fyMxvNAzFuJ_Gcuw=="
+
 // holder for the api data
-const api = 'http://localhost:7071/api/GetResumeCounter'
+const localhostApi = 'http://localhost:7071/api/GetResumeCounter'
 
 // function to update the website visit counts on the homepage
 const updateVisitorCount = () => {
     let count = 10;
 
-    fetch(api)
+    fetch(funcApiUrl)
     .then(res => res.json())
     .then(data => {
         console.log('succesful connect')

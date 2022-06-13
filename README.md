@@ -11,3 +11,10 @@ My cloud resume built and maintained using azure services. Built based on the Cl
 
 - The api directory contains a Microsoft function app with C# templates 
 
+
+## Azure Services Used.
+
+- Azure Cosmos DB
+- Azure Application Insights
+- Azure Blob Storage
+- Azure Function App
