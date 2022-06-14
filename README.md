@@ -18,3 +18,4 @@ My cloud resume built and maintained using azure services. Built based on the Cl
 - Azure Application Insights
 - Azure Blob Storage
 - Azure Function App
+- Azure CDN. I do think it's important to know that I linked an already created domain name to the CDN as Azure CDN does not allow customers to create a domain name as of this documentation.
