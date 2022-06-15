@@ -1,4 +1,4 @@
-# my-azure-resume
+# my-azure-resume  ## ~not completed~
 My cloud resume built and maintained using azure services. Built based on the Cloud Resume Challenge 
  
  ## Structure Layout
